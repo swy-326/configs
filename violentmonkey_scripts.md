@@ -1,0 +1,3 @@
+- https://github.com/reek/anti-adblock-killer/
+- https://github.com/Xmader/musescore-downloader
+- https://github.com/adsbypasser/adsbypasser/
