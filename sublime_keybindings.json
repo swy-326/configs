@@ -1,0 +1,8 @@
+[
+  { "keys": ["ctrl+]"], "command": "next_view" },
+  { "keys": ["ctrl+["], "command": "prev_view" },
+  { "button": "scroll_down", "modifiers": ["ctrl"], "command": "noop" },
+  { "button": "scroll_up", "modifiers": ["ctrl"], "command": "noop" },
+  { "keys": ["ctrl+shift+x"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} }
+
+]

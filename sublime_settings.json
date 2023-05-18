@@ -1,0 +1,22 @@
+{
+	"button": "scroll_up",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"command": "null",
+	"default_encoding": "UTF-8",
+	"font_face": "D2Coding",
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Package Control",
+		"Six",
+		"Vintage",
+		"Vintageous"
+	],
+	"modifiers":
+	[
+		"ctrl"
+	],
+	"neovintageous_build_version": 11100,
+	"show_encoding": true,
+	"theme": "Adaptive.sublime-theme"
+}
