@@ -1,0 +1,90 @@
+! 2021-07-26 https://www.facebook.com
+www.facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 > .cxgpxx05
+
+! 2021-07-30 https://section.blog.naver.com
+section.blog.naver.com##.hot_topic
+section.blog.naver.com##.header_service
+
+! 2021-08-03 https://section.blog.naver.com
+section.blog.naver.com##.view_more_buddy
+
+! 2021-08-04 https://wetransfer.com
+||backgrounds.wetransfer.net/cp_zandile/zandile1_t1_v1/index.html?cacheId=4eyh6m_0_28757292&_origin=https://wetransfer.com$subdocument
+
+! 2021-08-05 https://wetransfer.com
+||backgrounds.wetransfer.net$subdocument
+
+! 2021-08-07 https://5.gigafile.nu
+||src.gigafile.nu/images/bg_gigafilezero.jpg$image
+||src.gigafile.nu/images/bg_gigafilezero.jpg$image
+5.gigafile.nu##.bannerg1_l.banner_type_sky
+5.gigafile.nu##div.container_wide:nth-of-type(5)
+5.gigafile.nu###explain_panel
+5.gigafile.nu###gigafile-slot-M1
+5.gigafile.nu###news_panel
+||src.gigafile.nu/images/contents_securl.jpg$image
+||src.gigafile.nu/images/contents_gigafilezero.jpg$image
+
+reddit.com##a[href^="/rpan/"]>h3:has-text(/Top livestream|Top broadcast/):nth-ancestor(7)
+
+||accounts.google.com/gsi/*$xhr,script,3p
+
+reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
+
+||redd.it/*.m3u8^$xhr,domain=reddit.com
+||strapi.reddit.com^$xhr,domain=reddit.com
+
+! Removes Mixes from the Main Page
+youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
+! Removes Mixes from the right side panel
+youtube.com##ytd-compact-radio-renderer
+! Removes Mixes from search results
+youtube.com##ytd-radio-renderer
+
+! 2022-04-02 https://web.facebook.com
+web.facebook.com##.hlyrhctz.be9z9djy.lpgh02oy.stjgntxs.ni8dbmo4.fer614ym.dp1hu0rb.rirtxc74.pad24vr5.qbu88020.o387gat7.du4w35lb.rq0escxv > .dp1hu0rb.qowsmv63.cbu4d94t.j83agx80.du4w35lb.l9j0dhe7.rq0escxv > .k4xni2cv.l9j0dhe7.c3g1iek1.eg9m0zos.kh7kg01d.r57mb794.l56l04vs.tgvbjcpo.g5gj957u.buofh1pr.d8ncny3e.mb9wzai9.dkue75c7.pohlnb88.ofs802cu.q5bimw55.du4w35lb.ni8dbmo4.cbu4d94t.j83agx80.gvuykj2m.k7i0oixp.rpm2j7zs > .l9j0dhe7.buofh1pr.cbu4d94t.j83agx80
+
+! 2022-06-03 https://1412.rest
+1412.rest###aswift_1_anchor
+
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-browse ytm-rich-item-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
+
+! 2022-12-05 https://globoplay.globo.com
+globoplay.globo.com##.media-control-panel__front-layer
+
+! 2023-03-30 https://theqoo.net
+theqoo.net##.in_content > div:nth-of-type(1)
+theqoo.net###aswift_0_host
+theqoo.net###aswift_2_host
+theqoo.net##.adsbygoogle
+
+! 2023-04-04 https://manatoki283.net
+manatoki283.net##.main-sidebar
+
+! 2023-04-04 https://theqoo.net
+theqoo.net##.adsbygoogle
+theqoo.net##.clear.rd_body > .adsbygoogle
+
+! 2023-05-01 https://theqoo.net
+theqoo.net##.lnb_section > .adsbygoogle
+theqoo.net##.wrap_content > div > .adsbygoogle
+
